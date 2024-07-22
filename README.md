@@ -20,4 +20,6 @@ Tests Unitaires: Comprend des tests unitaires pour garantir la fiabilité et la 
 
 Des tests unitaires ont été écrits pour assurer la fiabilité et la fonctionnalité de l'Application de Crème Glacée. Ces tests sont conçus pour vérifier que chaque composant de l'application fonctionne correctement. Ils vérifient que les fonctions donnent les résultats attendus et que les situations d'erreur sont correctement gérées.
 
+### GIF
+
 <img src="./public/uniticecream.gif"/>
