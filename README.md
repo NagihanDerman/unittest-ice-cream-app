@@ -1,6 +1,6 @@
 ## unitest ice-cream-app
 
-Bienvenue dans l'Application de Crème Glacée! Cette application permet aux utilisateurs de découvrir diverses saveurs de crème glacée et de créer leurs propres combinaisons de sauces spéciales. Que vous soyez un amateur de crème glacée ou à la recherche d'un projet amusant, cette application est faite pour vous!
+Cette application permet aux utilisateurs de découvrir diverses saveurs de crème glacée et de créer leurs propres combinaisons de sauces spéciales. Que vous soyez un amateur de crème glacée ou à la recherche d'un projet amusant, cette application est faite pour vous!
 
 ### Technologies et Bibliothèques Utilisées
 

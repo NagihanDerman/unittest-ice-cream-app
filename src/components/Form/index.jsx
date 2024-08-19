@@ -19,7 +19,7 @@ const Form = () => {
             visibility: isHover ? "visible" : "hidden",
           }}
         >
-          Size gerçekten bir şey teslim etmeyeceğiz
+          Size gerçekten bir şey teslim edeceğiz
         </p>
         <label htmlFor="terms">Koşulları okudum ve kabul ediyorum</label>
       </div>

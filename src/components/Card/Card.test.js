@@ -26,10 +26,10 @@ test("Miktar, başlık ve fotoğraf gelen propa göre ekrana basılır", () => {
   expect(amount.textContent).toBe("5");
 
   // chocalate yazısı ekrana geldi mi kontrol et
-  // getBy elementi bulamazsa hata fırlatır yani sadece element ekrandamı kontrolü yapmak istiyorsak getBy ile elementi çağırmamız yetrlidir element ekranda getBy onu alır ve test devam eder ekranda yoksa getBy bulamaz ve test iptal olur. yani ekranda mı testi için extradan expect yapmamıza gerek yok.
+  // getBy elementi bulamazsa hata fırlatır
   screen.getByText("Chocolate");
 
-  // resim elementi çağır
+  // resim elementini çağır
   const img = screen.getByAltText("çeşit-resim");
 
   // resmin kaynağı doğru mu kontrol et
@@ -39,7 +39,6 @@ test("Miktar, başlık ve fotoğraf gelen propa göre ekrana basılır", () => {
 test("Butonlara tıklanınca fonksiyonlar doğru parametrelerle çağrılır", async () => {
   const user = userEvent.setup();
 
-  // prop olarak scoop bileşeninden gönderilen orjinal fonksiyonları göndermeğimizden yapmamız greken test fonksiyonlar çağrıldı mı ve doğru paramtreler gönderlidi mi testleri olucak bu noktada mock işlevini kullanırız
   const addMockFn = jest.fn();
   const clearMockFn = jest.fn();
 

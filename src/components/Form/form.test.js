@@ -9,10 +9,10 @@ test("Koşulların onaylanmasına göre buton aktifliği", () => {
   const button = screen.getByRole("button");
   const checkbox = screen.getByRole("checkbox");
 
-  // 3) checkbox tiklenmemiştir
+  // 3) checkbox tiklanmamis
   expect(checkbox).not.toBeChecked();
 
-  // 4) butonun inaktitir
+  // 4) butonun inaktif tir
   expect(button).toBeDisabled();
 
   // 5) checkbox'ı tikle
